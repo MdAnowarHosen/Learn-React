@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function Header_Footer() {
+function Header_Footer() {
   return (
-    <div>Header_Footer</div>
-  )
+    <div>
+      <h2>This is Header Footer Component</h2>
+    </div>
+  );
 }
+
+export default Header_Footer;
