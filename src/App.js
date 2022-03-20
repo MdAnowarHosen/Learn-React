@@ -3,6 +3,8 @@ import Country from "./components/Home/Country";
 import Fruits from "./components/Home/Fruits";
 import TwoWayDataBinding from "./components/Home/TwoWayDataBinding";
 import "./styles.css";
+import "./custom_style.css";
+import Mobile from "./components/Home/Mobile";
 
 export default function App() {
   return (
@@ -13,6 +15,7 @@ export default function App() {
         <Country />
         <TwoWayDataBinding />
         <Header_Footer />
+        <Mobile />
       </div>
     </div>
   );

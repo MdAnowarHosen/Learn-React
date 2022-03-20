@@ -1,7 +1,11 @@
-import React from "react";
+import React, { PureComponent } from "react";
 
-function Fruits() {
-  return <div>Fruits</div>;
+export class Fruits extends PureComponent {
+  // Pure Component || to get that, type "rpce"
+
+  render() {
+    return <div></div>;
+  }
 }
 
 export default Fruits;

@@ -33,9 +33,11 @@ export class Country extends PureComponent {
 
     return (
       <div>
-        <div>
+        <div className="country">
           <hr />
-          <button onClick={this.Change}>Click Me</button>
+          <button className="country_button" onClick={this.Change}>
+            Click Me
+          </button>
           <p>Country: {this.state.country[0].name}</p>
           <p>Country: {this.state.country[2].name}</p>
           <p>Country: {this.state.country[3].name}</p>
