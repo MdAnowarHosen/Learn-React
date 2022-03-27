@@ -5,20 +5,22 @@ export class Fruits extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: "Nokia"
+      username: ""
     };
   }
-  ChangeMobile = (e) => {
-    this.setState({
-      mobile: e.target.value
-    });
+  ChangeMobile = (event) => {
+    let value = event.target.name;
+    let getting_value = event.target.value;
+    this.setState({ [value]: getting_value });
   };
   render() {
     return (
       <div>
-        <div>{this.state.mobile}</div>
+        <div>{this.state.username} aa</div>
         <div>
-          <input type="text" onChange={this.ChangeMobile} />
+          <form action="#">
+            <input name="username" type="text" onChange={this.ChangeMobile} />
+          </form>
         </div>
       </div>
     );
