@@ -5,6 +5,7 @@ import TwoWayDataBinding from "./components/Home/TwoWayDataBinding";
 import "./styles.css";
 import "./custom_style.css";
 import Mobile from "./components/Home/Mobile";
+import Map from "./components/Home/Map";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <TwoWayDataBinding />
         <Header_Footer />
         <Mobile />
+        <Map />
       </div>
     </div>
   );
